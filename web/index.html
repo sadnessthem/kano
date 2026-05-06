@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="background: transparent !important; background-color: transparent !important;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban - 桌面看板娘</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 角色容器（PixiJS 画布渲染到此） -->
+    <div id="role-container"></div>
+
+    <!-- 对话气泡 -->
+    <div id="dialog-bubble" class="dialog-bubble hidden">
+        <div id="dialog-text" class="dialog-text"></div>
+        <div class="dialog-arrow"></div>
+    </div>
+
+    <!-- 本地依赖库（离线可用） -->
+    <!-- Live2D Cubism Core (必须先加载) -->
+    <script src="lib/live2dcubismcore.min.js"></script>
+    <!-- PixiJS -->
+    <script src="lib/pixi.min.js"></script>
+    <!-- Cubism 2 shim (pixi-live2d-display 需要 Cubism 2 全局变量，即使用 Cubism 4) -->
+    <script src="js/cubism2-shim.js"></script>
+    <!-- pixi-live2d-display -->
+    <script src="lib/pixi-live2d-display.js"></script>
+    <!-- QWebChannel -->
+    <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+
+    <!-- 业务 JS -->
+    <script src="js/live2d-loader.js"></script>
+    <script src="js/behavior_player.js"></script>
+    <script src="js/dialog.js"></script>
+    <script src="js/interaction.js"></script>
+    <script src="js/bridge.js"></script>
+</body>
+</html>

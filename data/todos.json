@@ -1,0 +1,18 @@
+[
+  {
+    "text": "试试右键托盘 → 查看待办",
+    "done": false,
+    "created_at": 1778058497.7036421,
+    "due_at": 1778069297.7036421,
+    "category": "default",
+    "remind_before_minutes": 0
+  },
+  {
+    "text": "编辑 data/todos.json 添加自己的待办",
+    "done": false,
+    "created_at": 1778060297.7036421,
+    "due_at": null,
+    "category": "default",
+    "remind_before_minutes": 0
+  }
+]

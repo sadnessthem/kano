@@ -1,0 +1,34 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Halo / Claude
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Cache
+.cache/
+
+# Logs
+*.log
+
+# Large binary / archives
+*.zip
+*.7z
+*.rar
+
+# Config (user-specific)
+config.yaml
+
+# OS
+.DS_Store
+Thumbs.db

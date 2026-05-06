@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "language": "zh_CN",
+    "version": "1.0",
+    "description": "Kanban 看板娘中文台词包"
+  },
+
+  "click": [
+    {"text": "诶？叫我干嘛~", "emotion": "happy", "weight": 3},
+    {"text": "嘿嘿~", "emotion": "smile", "weight": 3},
+    {"text": "我在呢~", "emotion": "smile", "weight": 2},
+    {"text": "唔…有什么事吗？", "emotion": "surprise", "weight": 2},
+    {"text": "再点的话…我可要收费了哦！", "emotion": "smile", "weight": 1},
+    {"text": "今天的我是不是特别可爱？", "emotion": "happy", "weight": 2},
+    {"text": "嗯？点我有什么事？", "emotion": "neutral", "weight": 2},
+    {"text": "不要一直戳啦~", "emotion": "surprise", "weight": 1}
+  ],
+
+  "double_click": [
+    {"text": "哇！吓我一跳！", "emotion": "surprise", "weight": 3},
+    {"text": "这么热情的吗！", "emotion": "happy", "weight": 2},
+    {"text": "哈哈哈~好痒！", "emotion": "happy", "weight": 2},
+    {"text": "再这样我可要生气了哦！", "emotion": "surprise", "weight": 1}
+  ],
+
+  "drag_end": [
+    {"text": "嘿咻~", "emotion": "smile", "weight": 3},
+    {"text": "被搬来搬去的…", "emotion": "neutral", "weight": 2},
+    {"text": "这里风景不错~", "emotion": "happy", "weight": 2},
+    {"text": "好啦，就放这儿吧", "emotion": "smile", "weight": 2}
+  ],
+
+  "greeting_morning": [
+    {"text": "早上好主人~今天也要加油哦！", "emotion": "happy", "weight": 3},
+    {"text": "早安！昨晚睡得好吗？", "emotion": "smile", "weight": 2},
+    {"text": "新的一天开始啦~打起精神来！", "emotion": "happy", "weight": 2},
+    {"text": "早~今天想喝咖啡还是茶？", "emotion": "smile", "weight": 1}
+  ],
+
+  "greeting_noon": [
+    {"text": "中午好~午饭吃了没？", "emotion": "smile", "weight": 3},
+    {"text": "午饭时间到！别忘了吃饭哦~", "emotion": "happy", "weight": 2},
+    {"text": "中午啦，休息一会儿吧~", "emotion": "smile", "weight": 2}
+  ],
+
+  "greeting_evening": [
+    {"text": "下午好~今天过得怎么样？", "emotion": "smile", "weight": 3},
+    {"text": "下午容易犯困呢，要加油哦！", "emotion": "happy", "weight": 2},
+    {"text": "要不要来点下午茶？", "emotion": "smile", "weight": 2}
+  ],
+
+  "greeting_night": [
+    {"text": "晚上了~今天辛苦了！", "emotion": "smile", "weight": 3},
+    {"text": "晚上好！不要熬夜太晚哦~", "emotion": "happy", "weight": 2},
+    {"text": "夜深了，该休息啦~", "emotion": "smile", "weight": 2},
+    {"text": "睡前记得刷牙哦！", "emotion": "happy", "weight": 1}
+  ],
+
+  "idle_level1": [
+    {"text": "嗯…好无聊啊~", "emotion": "neutral", "weight": 2},
+    {"text": "主人还在忙吗？", "emotion": "neutral", "weight": 2},
+    {"text": "（打了个哈欠）", "emotion": "neutral", "weight": 2}
+  ],
+
+  "idle_level2": [
+    {"text": "好闲啊…有没有什么好玩的？", "emotion": "neutral", "weight": 2},
+    {"text": "（伸懒腰）唔…", "emotion": "neutral", "weight": 2},
+    {"text": "主人是不是忘记我了…", "emotion": "sad", "weight": 1}
+  ],
+
+  "idle_level3": [
+    {"text": "Zzz…（睡着了）", "emotion": "neutral", "weight": 2},
+    {"text": "（头一点一点地打瞌睡）", "emotion": "neutral", "weight": 2},
+    {"text": "呼…呼…", "emotion": "neutral", "weight": 1}
+  ],
+
+  "return_from_idle": [
+    {"text": "啊！主人你回来啦！", "emotion": "happy", "weight": 3},
+    {"text": "欢迎回来~等你好久了！", "emotion": "happy", "weight": 2},
+    {"text": "你终于回来了！我好想你~", "emotion": "happy", "weight": 2},
+    {"text": "（揉眼睛）嗯…主人？", "emotion": "surprise", "weight": 1}
+  ],
+
+  "hourly_chime": [
+    {"text": "叮~整点报时！现在{hour}点啦", "emotion": "smile", "weight": 3},
+    {"text": "又过了一小时哦~现在是{hour}点整", "emotion": "smile", "weight": 2},
+    {"text": "铛铛铛~{hour}点啦！", "emotion": "happy", "weight": 2}
+  ],
+
+  "cpu_alert": [
+    {"text": "主人，CPU 好像有点高哦…是不是开太多程序了？", "emotion": "surprise", "weight": 2},
+    {"text": "电脑在喘气了…要不要关掉点什么？", "emotion": "neutral", "weight": 2},
+    {"text": "CPU 占用有点吓人呢~", "emotion": "surprise", "weight": 1}
+  ],
+
+  "memory_alert": [
+    {"text": "内存快满了哦~注意一下~", "emotion": "surprise", "weight": 2},
+    {"text": "主人，内存不太够了…", "emotion": "neutral", "weight": 2}
+  ],
+
+  "battery_low": [
+    {"text": "电量不足啦！快插电源！", "emotion": "surprise", "weight": 3},
+    {"text": "要没电了…快拯救我！", "emotion": "surprise", "weight": 2},
+    {"text": "还有{battery}%的电量，记得充电哦~", "emotion": "neutral", "weight": 2}
+  ],
+
+  "weather_report": [
+    {"text": "今天{temp}度，{condition}，{advice}", "emotion": "smile", "weight": 3}
+  ],
+
+  "mouse_enter": [
+    {"text": "嗯？", "emotion": "neutral", "weight": 3},
+    {"text": "（看向鼠标）", "emotion": "neutral", "weight": 2},
+    {"text": "怎么啦？", "emotion": "smile", "weight": 2}
+  ],
+
+  "reminder": [
+    {"text": "主人~{reminder}", "emotion": "smile", "weight": 3},
+    {"text": "提醒一下：{reminder}", "emotion": "smile", "weight": 2}
+  ]
+}
